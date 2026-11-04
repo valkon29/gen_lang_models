@@ -1,0 +1,42 @@
+{
+  "n_questions": 15,
+  "criteria": {
+    "relevance": {
+      "base": 4.33,
+      "sft": 3.73
+    },
+    "correctness": {
+      "base": 3.13,
+      "sft": 2.73
+    },
+    "helpfulness": {
+      "base": 3.27,
+      "sft": 3.07
+    },
+    "format": {
+      "base": 4.73,
+      "sft": 4.8
+    }
+  },
+  "total": {
+    "base": 15.47,
+    "sft": 14.33
+  },
+  "wins": {
+    "sft": 2,
+    "base": 8,
+    "tie": 5
+  },
+  "checks_base": {
+    "language": 15,
+    "list_format": 12,
+    "no_repetition": 14,
+    "length": 15
+  },
+  "checks_sft": {
+    "language": 15,
+    "list_format": 14,
+    "no_repetition": 15,
+    "length": 15
+  }
+}
